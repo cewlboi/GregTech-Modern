@@ -1084,9 +1084,9 @@ public class MachineRecipeLoader {
 
         BLAST_RECIPES.recipeBuilder("rutile_from_ilmenite")
                 .inputItems(dust, Ilmenite, 10)
-                .inputItems(dust, Carbon, 4)
+                .inputItems(dust, Carbon, 2)
                 .outputItems(ingot, WroughtIron, 2)
-                .outputItems(dust, Rutile, 4)
+                .outputItems(dust, Rutile, 6)
                 .outputFluids(CarbonDioxide.getFluid(2000))
                 .blastFurnaceTemp(1700)
                 .duration(1600).EUt(VA[HV]).save(provider);
